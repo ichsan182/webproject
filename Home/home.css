@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Babylonica&family=Lato:wght@300;700&family=Montserrat:wght@500;700;800&family=Poppins:wght@200&family=Roboto:wght@100;400&display=swap");
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Montserrat", sans-serif;
+   background-color: #141414;
+}
+
+.navbar {
+   background-color: #141414;
+   height: 100px;
+   display: flex;
+   justify-content: space-around;
+}
+
+li {
+   list-style: none;
+}
+
+.left-navbar {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.logo i {
+   font-size: 50px;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+}
+
+.right-navbar {
+   justify-content: center;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.name-logo {
+   justify-content: center;
+   display: flex;
+}
+
+.name {
+   font-size: 30px;
+   color: #fff;
+   font-weight: 700;
+}
+
+.listed {
+   display: flex;
+   gap: 30px;
+}
+
+.listed li {
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.listed li a {
+   text-decoration: none;
+   font-size: larger;
+   color: #19a7ce;
+}
+
+.listed li a:hover {
+   border-bottom: #19a7ce 2px solid;
+   text-shadow: -2px 2px 6px rgba(105, 255, 255, 1);
+}
+
+.right-navbar ul li {
+   text-align: center;
+   flex-direction: column;
+}
+
+/* ========================== */
+
+.corner {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 10rem;
+   padding-top: 50px;
+   background-color: #141414;
+}
+
+.right-corner {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+.right-corner h1 {
+   color: #fff;
+   font-size: 40px;
+   font-weight: 500;
+}
+
+.right-corner li {
+   color: #fff;
+   font-size: 20px;
+}
+
+.text-mid {
+   color: #ff0000;
+}
+
+.list-gestures {
+   gap: 2rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.listed-mid ul {
+   gap: 5px;
+   display: flex;
+   flex-direction: column;
+}
+
+/* ======================== */
+
+.button-modify {
+   padding-top: 25px;
+   background-color: #141414;
+   padding-bottom: 25px;
+}
+
+.btn {
+   padding: 15px 75px 15px 75px;
+   border-radius: 20px 20px 20px 20px;
+   border-color: transparent;
+   background-color: #19a7ce;
+   color: #fff;
+}
+
+.btn-red {
+   color: #fff;
+   background-color: #ff0000;
+   font-weight: bold;
+}
+
+.button-bottom {
+   display: flex;
+   justify-content: center;
+   gap: 11rem;
+   align-items: center;
+}
+
+.btn {
+   opacity: 0.8;
+}
+
+.btn p {
+   background-color: transparent;
+}
+
+.btn:hover {
+   opacity: 1;
+   cursor: pointer;
+}
+
+.master-div {
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   vertical-align: middle;
+}
